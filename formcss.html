@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <div class="container">
+    <form>
+        <h2 class="main_heading">Payment form</h2>
+        <h2>User information</h2>
+        <label for="fname">First Name:
+            <input type="text" placeholder="enter your name">
+        </label><br><br>
+        <lable for="lname">Last Name:
+            <input type="text" placeholder="enter your last name">
+        </lable><br><br>
+        <fieldset>
+        <legend>Gender:
+            <input type="radio" name="gender "id="male" value="male">Male
+            <input type="radio"name="gender" id="female" value="female">Female
+            <input type="radio"name="gender" id="other" value="other">Others
+        </legend></fieldset><br><br>
+        <lable for="add">Address:
+            <textarea type="text" placeholder="enetr your address" rows="7"cols="60" ></textarea>
+        </lable><br><br>
+        <lable for="email">
+            Email:
+            <input type="email" placeholder="abc@gmail.com" required>
+        </lable><br><br>
+        <lable >Payment Method:
+            <select>
+                <option value="select card"> Select card</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="master card">Master Card</option>
+                 <option value="smart card">Smart Card</option>
+                 
+                </select>
+        </lable><br><br>
+         <button type="button" style="text-align: center;">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
